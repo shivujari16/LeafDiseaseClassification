@@ -13,7 +13,7 @@ col2.image("potato.png",caption="Potato")
 st.markdown("")
 col3,col4 = st.columns(2)
 #col3.header("Pepper Bell")
-col3.image("pepper.png",caption="Pepper Bell")
+col3.image("Pepper.png",caption="Pepper Bell")
 #col4.header("Cotton")
 col4.image("cotton.png",caption="Cotton")
 
