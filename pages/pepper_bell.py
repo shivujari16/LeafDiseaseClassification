@@ -1,23 +1,7 @@
-
-from __future__ import division, print_function
-# coding=utf-8
-import sys
-import os
-import glob
-import re
 import numpy as np
 import tensorflow as tf
-# Keras
-from tensorflow.keras.preprocessing.image import ImageDataGenerator,load_img,img_to_array
-import numpy as np
-from tensorflow.keras.models import load_model
-from tensorflow.keras.preprocessing import image
-import streamlit as st
 
-# Flask utils
-#from flask import Flask, redirect, url_for, request, render_template
-from werkzeug.utils import secure_filename
-#from gevent.pywsgi import WSGIServer
+import streamlit as st
 from PIL import Image, ImageOps
 from io import BytesIO
 #import cv2
@@ -27,7 +11,7 @@ from io import BytesIO
 #app = Flask(__name__)
 
 # Model saved with Keras model.save()
-MODEL_PATH ='C:\\Users\Hp\Desktop\shivu\Jupyter notebook\Dataset3\pepper_bell_Leaf_cnn.h5'
+MODEL_PATH ='pepper_bell_Leaf_cnn.h5'
 
 # Load your trained model
 model = load_model(MODEL_PATH)
