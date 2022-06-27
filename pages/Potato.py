@@ -26,7 +26,7 @@ from io import BytesIO
 #app = Flask(__name__)
 
 # Model saved with Keras model.save()
-MODEL_PATH ='C:\\Users\Hp\Desktop\shivu\Jupyter notebook\potato_Leaf_cnn.h5'
+MODEL_PATH ='potato_Leaf_cnn.h5'
 
 # Load your trained model
 model = load_model(MODEL_PATH)
