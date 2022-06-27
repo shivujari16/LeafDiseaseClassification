@@ -1,21 +1,7 @@
-from __future__ import division, print_function
-# coding=utf-8
-import sys
-import os
-import glob
-import re
 import numpy as np
 import tensorflow as tf
 # Keras
-from tensorflow.keras.preprocessing.image import ImageDataGenerator,load_img,img_to_array
-import numpy as np
-from tensorflow.keras.models import load_model
-from tensorflow.keras.preprocessing import image
 import streamlit as st
-
-# Flask utils
-#from flask import Flask, redirect, url_for, request, render_template
-from werkzeug.utils import secure_filename
 #from gevent.pywsgi import WSGIServer
 from PIL import Image, ImageOps
 from io import BytesIO
