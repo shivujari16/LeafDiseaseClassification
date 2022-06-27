@@ -7,6 +7,7 @@ from io import BytesIO
 #import cv2
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing import image
+from tensorflow.keras.preprocessing.image import ImageDataGenerator,load_img,img_to_array
 
 
 # Define a flask app
