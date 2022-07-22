@@ -86,7 +86,7 @@ def main():
                 st.title('Treatment:')
                 st.markdown('Of course, once the symptoms of bacterial leaf spot begin to appear on your pepper plants, it’s too late to save them. However, if you take precautions before planting next season, you’ll have a better chance of preventing peppery leaf spot problems in the future. Crop rotation can help prevent bacterial leaf spot. Do not plant peppers or tomatoes in a location where either of these crops has been grown in the past four or five years. At the end of the season, remove all crop debris from the garden and destroy it')
             else:
-                st.tille("Congratulation")
+                st.title("Congratulation")
                 st.markdown("Your plant is healthy")
     
 
