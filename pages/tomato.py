@@ -173,7 +173,7 @@ def main():
                 st.markdown("3. Avoid using tobacco around susceptible plants. Cigarettes and other tobacco products may be infected and can spread the virus.")
                 st.markdown("4. Remove and destroy all infected plants (see Fall Garden Cleanup). Do NOT compost.")
             else:
-                st.tille("Congratulation")
+                st.title("Congratulation")
                 st.markdown("Your plant is healthy")
     
 
