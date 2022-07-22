@@ -67,7 +67,7 @@ model = load_model(MODEL_PATH)
  #   return "hello"
 
 def main():
-    st.title("Cotton")
+    st.title("Tomato")
     file = st.file_uploader("Choose a file")
     if file is not None:
         byte = file.read()
