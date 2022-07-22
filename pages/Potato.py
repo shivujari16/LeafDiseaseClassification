@@ -98,7 +98,7 @@ def main():
                 st.markdown("2. Water in the early morning hours, or use soaker hoses, to give plants time to dry out during the day — avoid overhead irrigation.")
                 st.markdown("3. Destroy all tomato and potato debris after harvest ")
             else:
-                st.tille("Congratulation")
+                st.title("Congratulation")
                 st.markdown("Your plant is healthy")
             
     
