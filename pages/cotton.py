@@ -86,7 +86,7 @@ def main():
                 st.title('Treatment:')
                 st.markdown('Buy clean seed from a reputable source. If saving seed, do not collect seed from infected plants. Rotate vegetables so two or more years go by before planting any member of the squash family in the same location. Use drip irrigation instead of overhead sprinklers if possible. If watering by hand, water at the base of the plant where the vine meets the soil. Do not work in plants when leaves are wet. Remove and destroy infected fruit and vines at the end of the season in small gardens.')
             else:
-                st.tille("Congratulation")
+                st.title("Congratulation")
                 st.markdown("Your plant is healthy")
     
 
